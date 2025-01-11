@@ -1,0 +1,136 @@
+[
+      {
+        "id": 1,
+        "picture": "https://i.ibb.co.com/Jc6jsPb/Food.png",
+        "title": "Organic Apples",
+        "category": "food",
+        "category_bg": "#FFEBCC",
+        "card_bg": "#FFF6E5",
+        "text_button_bg": "#FFB347",
+        "description": "Fresh organic apples directly from the farm.",
+        "price": 5.99
+      },
+      {
+        "id": 2,
+        "picture": "https://i.ibb.co.com/9pPLwND/Health.png",
+        "title": "Yoga Mat",
+        "category": "health",
+        "category_bg": "#E0F7FA",
+        "card_bg": "#B2EBF2",
+        "text_button_bg": "#00796B",
+        "description": "Non-slip yoga mat for a better fitness experience.",
+        "price": 19.99
+      },
+      {
+        "id": 3,
+        "picture": "https://i.ibb.co.com/jgnTdSm/Education.png",
+        "title": "Kids' Textbook",
+        "category": "education",
+        "category_bg": "#E8EAF6",
+        "card_bg": "#C5CAE9",
+        "text_button_bg": "#303F9F",
+        "description": "Comprehensive textbook for elementary school.",
+        "price": 12.49
+      },
+      {
+        "id": 4,
+        "picture": "https://i.ibb.co.com/stjbXQd/Clothing.png",
+        "title": "Men's Casual Shirt",
+        "category": "clothing",
+        "category_bg": "#FCE4EC",
+        "card_bg": "#F8BBD0",
+        "text_button_bg": "#880E4F",
+        "description": "Stylish and comfortable casual shirt for men.",
+        "price": 29.99
+      },
+      {
+        "id": 5,
+        "picture": "https://i.ibb.co.com/Jc6jsPb/Food.png",
+        "title": "Green Tea Pack",
+        "category": "food",
+        "category_bg": "#E8F5E9",
+        "card_bg": "#C8E6C9",
+        "text_button_bg": "#388E3C",
+        "description": "A healthy pack of green tea for relaxation.",
+        "price": 9.99
+      },
+      {
+        "id": 6,
+        "picture": "https://i.ibb.co.com/9pPLwND/Health.png",
+        "title": "Dumbbell Set",
+        "category": "health",
+        "category_bg": "#FFF3E0",
+        "card_bg": "#FFE0B2",
+        "text_button_bg": "#E65100",
+        "description": "Adjustable dumbbells for your home workouts.",
+        "price": 49.99
+      },
+      {
+        "id": 7,
+        "picture": "https://i.ibb.co.com/jgnTdSm/Education.png",
+        "title": "Math Workbook",
+        "category": "education",
+        "category_bg": "#F3E5F5",
+        "card_bg": "#E1BEE7",
+        "text_button_bg": "#8E24AA",
+        "description": "Practice workbook for middle school mathematics.",
+        "price": 7.99
+      },
+      {
+        "id": 8,
+        "picture": "https://i.ibb.co.com/stjbXQd/Clothing.png",
+        "title": "Women's Winter Jacket",
+        "category": "clothing",
+        "category_bg": "#E3F2FD",
+        "card_bg": "#BBDEFB",
+        "text_button_bg": "#0D47A1",
+        "description": "Warm and fashionable winter jacket for women.",
+        "price": 89.99
+      },
+      {
+        "id": 9,
+        "picture": "https://i.ibb.co.com/9pPLwND/Health.png",
+        "title": "Protein Powder",
+        "category": "health",
+        "category_bg": "#FFEBEE",
+        "card_bg": "#FFCDD2",
+        "text_button_bg": "#C62828",
+        "description": "High-quality protein powder for muscle building.",
+        "price": 39.99
+      },
+      {
+        "id": 10,
+        "picture": "https://i.ibb.co.com/Jc6jsPb/Food.png",
+        "title": "Pasta Pack",
+        "category": "food",
+        "category_bg": "#FFFDE7",
+        "card_bg": "#FFF9C4",
+        "text_button_bg": "#FBC02D",
+        "description": "Delicious Italian pasta for homemade recipes.",
+        "price": 4.99
+      },
+      {
+        "id": 11,
+        "picture": "https://i.ibb.co.com/jgnTdSm/Education.png",
+        "title": "School Backpack",
+        "category": "education",
+        "category_bg": "#E8F5E9",
+        "card_bg": "#C8E6C9",
+        "text_button_bg": "#43A047",
+        "description": "Durable and spacious backpack for students.",
+        "price": 34.99
+      },
+      {
+        "id": 12,
+        "picture": "https://i.ibb.co.com/stjbXQd/Clothing.png",
+        "title": "Sneakers",
+        "category": "clothing",
+        "category_bg": "#ECEFF1",
+        "card_bg": "#CFD8DC",
+        "text_button_bg": "#37474F",
+        "description": "Comfortable sneakers for daily use.",
+        "price": 59.99
+      }
+    ]
+  
+  

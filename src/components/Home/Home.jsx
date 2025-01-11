@@ -1,9 +1,11 @@
 import React from 'react';
 import Header from '../Header/Header';
+import FeatureDonation from '../FeatureDonation/FeatureDonation';
 
 const Home = () => {
     return (
-        <div className='' style={{
+        <div>
+          <div className='' style={{
             backgroundImage: `url("https://i.ibb.co.com/pQkWqcD/Rectangle-4281.png")` 
           }}>
           <div className='backdrop-brightness-100 backdrop-blur-md'>
@@ -15,6 +17,9 @@ const Home = () => {
           </div>
           </div>
         </div>
+        <FeatureDonation/>
+        </div>
+        
     );
 };
 
