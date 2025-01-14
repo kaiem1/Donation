@@ -11,6 +11,7 @@ import Root from './components/Root/Root';
 import Home from './components/Home/Home';
 import Donation from './components/Donation/Donation';
 import Statistics from './components/Statistics/Statistics';
+import DonationDetails from './components/DonationDetails/DonationDetails';
 
 const router = createBrowserRouter([
   {
@@ -23,11 +24,17 @@ const router = createBrowserRouter([
       },
       {
         path: '/donation',
-        element: <Donation></Donation>
+        element: <Donation></Donation>,
+        loader: () => fetch('/donation.json') 
       },
       {
         path: '/statistics',
         element: <Statistics></Statistics>
+      },
+      {
+        path: '/:id',
+        element: <DonationDetails></DonationDetails>,
+        loader: () => fetch('/donation.json')
       }
     ]
   },

@@ -22,7 +22,7 @@ const Header = () => {
         <div className="navbar ">
           <div className="flex-1">
             <a className="btn btn-ghost text-xl">
-              <img className="h-10" src="/img/Logo.png" alt="" />
+              <img className="h-10" src="https://i.ibb.co.com/6YbNGNy/Logo.png" alt="" />
             </a>
           </div>
           <div className="flex-none">

@@ -1,12 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Outlet, useLocation } from "react-router-dom";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 import MainContainer from "../Containers/MainContainer";
+import Home from "../Home/Home";
 
 const Root = () => {
   const { pathname } = useLocation();
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
   console.log({ pathname });
   return (
     <div
@@ -31,6 +35,7 @@ const Root = () => {
         //   }
         //   `}
         >
+          
           <Outlet />
         </div>
         <Footer />
