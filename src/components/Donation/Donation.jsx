@@ -3,6 +3,7 @@ import Header from '../Header/Header';
 import { useLoaderData } from 'react-router-dom';
 import { getStoredDonation } from '../utility/localstorage';
 import GiveDonationCard from '../Containers/GiveDonationCard/GiveDonationCard';
+import { Helmet } from 'react-helmet-async';
 
 const Donation = () => {
     const donations = useLoaderData();
@@ -27,6 +28,9 @@ const Donation = () => {
     } , [])
     return (
         <div className=''>
+            <Helmet>
+                <title>Donation | Donation</title>
+            </Helmet>
             <Header/>
             
             <div className='grid grid-cols-2 gap-5'>

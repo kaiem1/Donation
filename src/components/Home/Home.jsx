@@ -1,10 +1,14 @@
 import React from "react";
 import Header from "../Header/Header";
 import FeatureDonation from "../FeatureDonation/FeatureDonation";
+import { Helmet } from "react-helmet-async";
 
 const Home = () => {
   return (
     <div>
+      <Helmet>
+        <title>Donation | Home</title>
+      </Helmet>
       <div
         className=""
         style={{
