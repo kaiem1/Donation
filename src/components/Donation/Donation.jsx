@@ -33,7 +33,7 @@ const Donation = () => {
             </Helmet>
             <Header/>
             
-            <div className='grid grid-cols-2 gap-5'>
+            <div className='grid md:grid-cols-2 gap-5'>
                 {
                     giveDonation.map(donation => <GiveDonationCard key={donation.id} giveDonationCard={donation} ></GiveDonationCard>)
                 }

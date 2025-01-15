@@ -4,7 +4,7 @@ import DonateLocation from "../DonateLocation/DonateLocation";
 const Footer = () => {
   return (
     <div className="">
-      <div className="absolute right-60">
+      <div className="absolute right-20">
         <DonateLocation></DonateLocation>
       </div>
       <div>

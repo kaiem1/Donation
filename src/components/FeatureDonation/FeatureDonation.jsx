@@ -15,7 +15,7 @@ const FeatureDonation = () => {
     return (
         <div className="mt-36 mb-24">
             
-            <div className={`grid grid-cols-4 gap-3 `}>
+            <div className={`grid grid-cols-2 md:grid-cols-4 gap-3 `}>
                 {
                     donation.slice(0, dataLength).map(donation => <DonationCard key={donation.id} donationCard={donation}></DonationCard>)
                 }
